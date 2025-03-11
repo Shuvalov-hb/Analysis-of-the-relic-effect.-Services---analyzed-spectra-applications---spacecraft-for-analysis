@@ -1,0 +1,24 @@
+.container {
+    background-color: #FFFFFF; /* Белый фон для основной области */
+    position: relative; /* Позволяет дочерним элементам позиционироваться абсолютно */
+    width: 1920px; /* Ширина контейнера */
+    height: 1080px; /* Высота контейнера */
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Центрирование логотипа */
+    width: 100px; /* Пример ширины логотипа */
+    height: 100px; /* Пример высоты логотипа */
+    background-image: url('../images/logo.png'); /* Путь к логотипу */
+    background-size: contain; /* Адаптация логотипа по размеру */
+    background-repeat: no-repeat; /* Не повторять изображение */
+}
+
+.path {
+    position: absolute;
+    background-color: #4B7AB7; /* Цвет для всех элементов пути */
+    /* Добавьте другие стили, если необходимо */
+}
